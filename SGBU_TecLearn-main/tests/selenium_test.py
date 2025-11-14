@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 
-#testes com o selenium, todo o sistema está sendo testado via selenium
 
 driver = webdriver.Chrome()
 driver.maximize_window()
