@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 
+#testes com o selenium, todo o sistema está sendo testado via selenium
+
 driver = webdriver.Chrome()
 driver.maximize_window()
 base_url = "http://localhost:8000"
@@ -277,7 +279,6 @@ def executar_testes():
 
     finally:
         driver.quit()
-
 
 if __name__ == "__main__":
     executar_testes()
